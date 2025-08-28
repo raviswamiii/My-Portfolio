@@ -1,7 +1,10 @@
 import React from 'react'
+import { Home } from './pages/Home'
 
 export const App = () => {
   return (
-    <div className='bg-amber-600'>App</div>
+    <div>
+      <Home />
+    </div>
   )
 }
