@@ -2,6 +2,7 @@ import React from "react";
 import { Model } from "../components/Model";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
+import { Moon } from "../components/Moon";
 
 export const Home = () => {
   return (
@@ -18,18 +19,25 @@ export const Home = () => {
           </Canvas>
         </div>
 
+        <div className="absolute w-[40%] h-[80%] right-5 top-20 rounded-full">
+          <Canvas>
+            <Moon />
+            <OrbitControls enableZoom={false} enableRotate={false} />
+          </Canvas>
+        </div>
+
         <div className="absolute left-6 my-4">
           <h1 className="text-white orbitron text-sm">.raviswamiii</h1>
         </div>
 
-          <div className="absolute flex mx-5 my-4 text-white orbitron gap-16 text-sm ">
-            <p className="underline">Home</p>
-            <p className="underline">Skills</p>
-            <p className="underline">Projects</p>
-            <p className="underline">Contact Me</p>
-          </div>
+        <div className="absolute flex mx-5 my-4 text-white orbitron gap-16 text-sm ">
+          <p className="underline">Home</p>
+          <p className="underline">Skills</p>
+          <p className="underline">Projects</p>
+          <p className="underline">Contact Me</p>
+        </div>
 
-        <div className="text-white pl-35 pt-48 flex flex-col absolute left-0 w-1/2">
+        <div className="text-white w-[38%] flex flex-col absolute top-45 left-40">
           <h1 className="text-4xl orbitron mb-2">Hi, I’m Ravi Swami,</h1>
           <h2 className="text-5xl mb-2 orbitron">A Web Developer</h2>
           <h3>
@@ -39,8 +47,6 @@ export const Home = () => {
             requirements.
           </h3>
         </div>
-
-        
       </div>
     </div>
   );
