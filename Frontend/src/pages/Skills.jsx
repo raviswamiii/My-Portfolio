@@ -1,7 +1,10 @@
 import React from 'react'
+import { Theme } from '../components/Thems'
 
 export const Skills = () => {
   return (
-    <div>Skills</div>
+    <div>
+        <Theme/>
+    </div>
   )
 }

@@ -13,7 +13,7 @@ export function Moon(props) {
           material={materials['Material.001']}
           position={[10.263, 20.594, -291.581]}
           rotation={[-Math.PI / 2, 0, 0]}
-          scale={450.587}
+          scale={445.587}
         />
       </group>
     </group>
