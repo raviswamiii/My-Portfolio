@@ -3,6 +3,7 @@ import { Model } from "../components/Model";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import { Moon } from "../components/Moon";
+import { Link } from "react-router-dom";
 
 export const Home = () => {
   return (
@@ -31,10 +32,18 @@ export const Home = () => {
         </div>
 
         <div className="absolute flex mx-5 my-4 text-white orbitron gap-16 text-sm ">
-          <p className="underline">Home</p>
-          <p className="underline">Skills</p>
-          <p className="underline">Projects</p>
-          <p className="underline">Contact Me</p>
+          <Link to={"/"}>
+            <p className="underline">Home</p>
+          </Link>
+          <Link to={"/skills"}>
+            <p className="underline">Skills</p>
+          </Link>
+          <Link to={"/projects"}>
+            <p className="underline">Projects</p>
+          </Link>
+          <Link to={"/contactMe"}>
+            <p className="underline">Contact Me</p>
+          </Link>
         </div>
 
         <div className="text-white w-[38%] flex flex-col absolute top-45 left-40">
