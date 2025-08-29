@@ -79,6 +79,7 @@ export const Home = () => {
           requirements.
         </h3>
       </div>
+
     </div>
   );
 };
