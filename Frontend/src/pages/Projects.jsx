@@ -1,5 +1,5 @@
 import React from "react";
-import { Theme } from "../components/Thems";
+import { Theme } from "../components/Theme";
 
 export const Projects = () => {
   return (

@@ -1,13 +1,16 @@
 import React from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, Route, useLocation } from "react-router-dom";
 import { Model } from "./Model";
+import { Home } from "../pages/Home";
+import { HomeAssets } from "./HomeAssets";
 
 export const Theme = () => {
+  const location = useLocation();
   return (
-    <div className="h-screen flex justify-center items-center">
-      <div className="relative bg-black flex justify-center shadow-[0_0_20px_#fff] h-[90%] w-[95%] rounded-4xl overflow-hidden">
+    <div className="h-screen flex justify-center items-center p-5 sm:p-0 ">
+      <div className="relative bg-black flex justify-center shadow-[0_0_20px_#fff] h-full w-full sm:h-[90%] sm:w-[95%] rounded-2xl sm:rounded-4xl overflow-hidden">
         <div className="h-full w-full">
           <Canvas>
             <Model />
@@ -19,11 +22,11 @@ export const Theme = () => {
           </Canvas>
         </div>
 
-        <div className="absolute left-6 my-4">
+        <div className="absolute left-4 my-3 sm:left-6 sm:my-4">
           <h1 className="text-white orbitron text-sm">.raviswamiii</h1>
         </div>
 
-        <div className="absolute flex mx-5 my-4 text-white orbitron gap-16 text-sm ">
+        <div className="hidden absolute sm:flex mx-5 my-4 text-white orbitron gap-16 text-sm ">
           <NavLink to={"/"}>
             <p className="underline">Home</p>
           </NavLink>
@@ -36,6 +39,10 @@ export const Theme = () => {
           <NavLink to={"/contactMe"}>
             <p className="underline">Contact Me</p>
           </NavLink>
+        </div>
+
+        <div>
+          {location.pathname === "/" && <HomeAssets/>}
         </div>
       </div>
     </div>

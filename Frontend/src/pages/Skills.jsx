@@ -1,5 +1,5 @@
 import React from "react";
-import { Theme } from "../components/Thems";
+import { Theme } from "../components/Theme";
 import { LiaHtml5 } from "react-icons/lia";
 import { TbBrandCss3 } from "react-icons/tb";
 import { SiTailwindcss } from "react-icons/si";

@@ -1,5 +1,5 @@
 import React from "react";
-import { Theme } from "../components/Thems";
+import { Theme } from "../components/Theme";
 import { FaCopyright, FaWhatsapp } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa";
