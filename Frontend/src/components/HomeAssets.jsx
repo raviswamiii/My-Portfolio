@@ -90,7 +90,7 @@ export const HomeAssets = () => {
         </h3>
       </div>
 
-      <div className="absolute bottom-[-30%] xl:bottom-[10%] left-[-3%] xl:left-[60%] right-0 h-[60%] xl:h-[80%] xl:w-[35vw]">
+      <div className="absolute bottom-[-30%] xl:bottom-[8%] left-[-3%] xl:left-[60%] right-0 h-[60%] xl:h-[80%] xl:w-[35vw]">
         <Canvas>
           <Moon />
           <OrbitControls enableZoom={false} enableRotate={false} />
