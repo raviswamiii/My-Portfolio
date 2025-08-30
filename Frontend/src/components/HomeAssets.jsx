@@ -60,8 +60,8 @@ export const HomeAssets = () => {
     //   </div>
     // </div>
 
-    <div>
-      <div className="borderpx-5 text-white xl:w-[38%] flex flex-col justify-center items-center xl:block absolute top-35 left-0 xl:top-55 xl:left-40">
+    <div className="">
+      {/* <div className="px-5 text-white xl:w-[40%] flex flex-col justify-center items-center xl:block absolute top-35 left-0 xl:top-48 xl:left-40">
         <h1 className="text-2xl xl:text-4xl orbitron mb-2">Hi, I’m Ravi Swami,</h1>
         <h2 className="text-3xl xl:text-5xl mb-2 orbitron">A Web Developer</h2>
         <h3 className="text-center xl:text-left">
@@ -73,6 +73,24 @@ export const HomeAssets = () => {
       </div>
 
       <div className=" absolute w-[100vw] h-[63%] xl:w-[35%] xl:h-[75%] bottom-[-50vw] right-[-5vw] xl:right-15 xl:top-25 rounded-full ">
+        <Canvas>
+          <Moon />
+          <OrbitControls enableZoom={false} enableRotate={false} />
+        </Canvas>
+      </div> */}
+
+      <div className=" text-white absolute top-45 left-0 xl:left-[10%] w-full xl:w-[36vw] text-center xl:text-left px-4 xl:p-0">
+        <h1 className="orbitron text-2xl xl:text-4xl">Hi, I’m Ravi Swami,</h1>
+        <h2 className="orbitron text-3xl xl:text-5xl xl:my-2">A Web Developer</h2>
+        <h3 className="text-sm ">
+          A dedicated MERN Stack Developer, specializing in building web
+          applications. I deliver high-quality solutions, modern design and
+          reliable performance, ensuring the best services tailored to your
+          requirements.
+        </h3>
+      </div>
+
+      <div className="absolute bottom-[-30%] xl:bottom-[10%] left-[-3%] xl:left-[60%] right-0 h-[60%] xl:h-[80%] xl:w-[35vw]">
         <Canvas>
           <Moon />
           <OrbitControls enableZoom={false} enableRotate={false} />
