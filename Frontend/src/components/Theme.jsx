@@ -23,11 +23,11 @@ export const Theme = () => {
           </Canvas>
         </div>
 
-        <div className="absolute left-4 top-3  ">
-          <h1 className="text-white orbitron text-sm sm:text-xs">.raviswamiii</h1>
+        <div className="absolute left-4 lg:left-5 top-3  ">
+          <h1 className="text-white orbitron sm:text-sm md:text-md lg:text-lg ">.raviswamiii</h1>
         </div>
 
-        <div className=" hidden absolute sm:flex top-4 sm:top-3 text-white orbitron gap-16 sm:gap-6 text-sm sm:text-xs ">
+        <div className="hidden absolute sm:flex top-4 sm:top-3 text-white orbitron sm:gap-[3vw] md:gap-[5vw] sm:text-sm md:text-md lg:text-lg ">
           <NavLink to={"/"}>
             <p className="underline">Home</p>
           </NavLink>
