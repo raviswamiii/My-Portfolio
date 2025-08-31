@@ -5,12 +5,13 @@ import { Link, NavLink, Route, useLocation } from "react-router-dom";
 import { Model } from "./Model";
 import { Home } from "../pages/Home";
 import { HomeAssets } from "./HomeAssets";
+import { CgMenuRightAlt } from 'react-icons/cg';
 
 export const Theme = () => {
   const location = useLocation();
   return (
-    <div className="bg-black h-screen flex justify-center items-center p-5 xl:p-8">
-      <div className="relative bg-black flex justify-center items-center shadow-[0_0_20px_#fff] h-full w-full rounded-2xl xl:rounded-4xl overflow-hidden">
+    <div className="bg-black h-screen flex justify-center items-center p-5 sm:p-8">
+      <div className="relative bg-black flex justify-center items-center shadow-[0_0_20px_#fff] h-full w-full rounded-2xl sm:rounded-4xl overflow-hidden">
         <div className="h-full w-full">
           <Canvas>
             <Model />
@@ -22,11 +23,11 @@ export const Theme = () => {
           </Canvas>
         </div>
 
-        <div className="absolute left-4 top-3 xl:top-4 xl:left-6 ">
-          <h1 className="text-white orbitron text-sm">.raviswamiii</h1>
+        <div className="absolute left-4 top-3  ">
+          <h1 className="text-white orbitron text-sm sm:text-xs">.raviswamiii</h1>
         </div>
 
-        <div className="hidden absolute xl:flex top-4 text-white orbitron gap-16 text-sm ">
+        <div className=" hidden absolute sm:flex top-4 sm:top-3 text-white orbitron gap-16 sm:gap-6 text-sm sm:text-xs ">
           <NavLink to={"/"}>
             <p className="underline">Home</p>
           </NavLink>
@@ -41,7 +42,11 @@ export const Theme = () => {
           </NavLink>
         </div>
 
-        <div className="">
+        <div className="absolute sm:hidden top-3 right-4 text-lg text-white">
+          <CgMenuRightAlt/>
+        </div>
+
+        <div>
           {location.pathname === "/" && <HomeAssets/>}
         </div>
       </div>
