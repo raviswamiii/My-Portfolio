@@ -23,11 +23,11 @@ export const Theme = () => {
           </Canvas>
         </div>
 
-        <div className="absolute left-4 lg:left-5 top-3  ">
+        <div className="absolute left-3 sm:left-5 top-2 sm:top-3  ">
           <h1 className="text-white orbitron sm:text-sm md:text-md lg:text-lg ">.raviswamiii</h1>
         </div>
 
-        <div className="hidden absolute sm:flex top-4 sm:top-3 text-white orbitron sm:gap-[3vw] md:gap-[5vw] sm:text-sm md:text-md lg:text-lg ">
+        <div className="hidden absolute sm:flex sm:top-3 text-white orbitron sm:gap-[3vw] md:gap-[5vw] sm:text-sm md:text-md lg:text-lg ">
           <NavLink to={"/"}>
             <p className="underline">Home</p>
           </NavLink>
@@ -42,7 +42,7 @@ export const Theme = () => {
           </NavLink>
         </div>
 
-        <div className="absolute sm:hidden top-3 right-4 text-lg text-white">
+        <div className="absolute sm:hidden top-2 right-3 text-xl text-white">
           <CgMenuRightAlt/>
         </div>
 
