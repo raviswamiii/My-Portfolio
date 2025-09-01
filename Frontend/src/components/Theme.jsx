@@ -9,6 +9,7 @@ import { AppContext } from "../context/AppContext";
 import { SiTrueup } from "react-icons/si";
 import { SkillsAssets } from "./SkillsAssets";
 import { ProjectsAssets } from "./ProjectsAssest";
+import { ContactMeAssets } from "./ContactMeAssets";
 
 export const Theme = () => {
   const location = useLocation();
@@ -55,6 +56,7 @@ export const Theme = () => {
         <div>{location.pathname === "/" && <HomeAssets />}</div>
         <div>{location.pathname === "/skills" && <SkillsAssets />}</div>
         <div>{location.pathname === "/projects" && <ProjectsAssets />}</div>
+        <div>{location.pathname === "/contactMe" && <ContactMeAssets />}</div>
       </div>
     </div>
   );
