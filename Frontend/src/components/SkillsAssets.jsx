@@ -10,7 +10,7 @@ import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
-import { Menu } from "./menu";
+import { Menu } from "./Menu";
 
 export const SkillsAssets = () => {
   return (
