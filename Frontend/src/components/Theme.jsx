@@ -8,6 +8,7 @@ import { CgMenuRightAlt } from "react-icons/cg";
 import { AppContext } from "../context/AppContext";
 import { SiTrueup } from "react-icons/si";
 import { SkillsAssets } from "./SkillsAssets";
+import { ProjectsAssets } from "./ProjectsAssest";
 
 export const Theme = () => {
   const location = useLocation();
@@ -53,6 +54,7 @@ export const Theme = () => {
 
         <div>{location.pathname === "/" && <HomeAssets />}</div>
         <div>{location.pathname === "/skills" && <SkillsAssets />}</div>
+        <div>{location.pathname === "/projects" && <ProjectsAssets />}</div>
       </div>
     </div>
   );

@@ -15,7 +15,7 @@ import { Menu } from "./menu";
 export const SkillsAssets = () => {
   return (
     <div>
-      <div className=" p-4 backdrop-blur-xs rounded-2xl text-white absolute top-[20%] left-[5%] lg:left-[20%] w-[90%] lg:w-[60%] h-[65%]  overflow-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-5 gap-x-5">
+      <div className="p-4 backdrop-blur-xs rounded-2xl text-white absolute top-[20%] left-[5%] lg:left-[20%] w-[90%] lg:w-[60%] h-[65%]  overflow-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-5 gap-x-5">
         <div className="flex flex-col gap-1 justify-center items-center border p-4 rounded-2xl shadow-[0_0_10px_#fff] text-center">
           <LiaHtml5 className="text-2xl"/>
           <p className="text-sm">HTML</p>
