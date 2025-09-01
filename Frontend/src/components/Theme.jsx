@@ -16,7 +16,7 @@ export const Theme = () => {
   const {menu, setMenu} = useContext(AppContext);
   return (
     <div className="bg-black h-screen flex justify-center items-center p-5 sm:p-8">
-      <div onClick={()=>setMenu(!menu)} className="relative bg-black flex justify-center items-center shadow-[0_0_20px_#fff] h-full w-full rounded-2xl sm:rounded-4xl overflow-hidden">
+      <div onClick={() => menu && setMenu(false)} className="relative bg-black flex justify-center items-center shadow-[0_0_20px_#fff] h-full w-full rounded-2xl sm:rounded-4xl overflow-hidden">
         <div className="h-full w-full">
           <Canvas>
             <Model />
