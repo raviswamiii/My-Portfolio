@@ -1,6 +1,6 @@
 import React from "react";
 import { Theme } from "../components/Theme";
-import { Menu } from "./menu";
+import { Menu } from "./Menu";
 
 export const ProjectsAssets = () => {
   return (

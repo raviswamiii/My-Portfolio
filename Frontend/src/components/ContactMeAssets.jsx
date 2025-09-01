@@ -5,7 +5,7 @@ import { SiGmail } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaRegCopyright } from "react-icons/fa";
-import { Menu } from "./menu";
+import { Menu } from "./Menu";
 
 export const ContactMeAssets = () => {
   return (

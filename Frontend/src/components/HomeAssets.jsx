@@ -4,7 +4,7 @@ import { OrbitControls } from "@react-three/drei";
 import { Moon } from "../components/Moon";
 import { NavLink } from "react-router-dom";
 import { AppContext } from "../context/AppContext";
-import { Menu } from "./menu";
+import { Menu } from "./Menu";
 
 export const HomeAssets = () => {
   return (
