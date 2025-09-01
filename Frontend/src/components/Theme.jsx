@@ -7,13 +7,14 @@ import { HomeAssets } from "./HomeAssets";
 import { CgMenuRightAlt } from "react-icons/cg";
 import { AppContext } from "../context/AppContext";
 import { SiTrueup } from "react-icons/si";
+import { SkillsAssets } from "./SkillsAssets";
 
 export const Theme = () => {
   const location = useLocation();
   const {menu, setMenu} = useContext(AppContext);
   return (
     <div className="bg-black h-screen flex justify-center items-center p-5 sm:p-8">
-      <div className="relative bg-black flex justify-center items-center shadow-[0_0_20px_#fff] h-full w-full rounded-2xl sm:rounded-4xl overflow-hidden">
+      <div onClick={()=>setMenu(!menu)} className="relative bg-black flex justify-center items-center shadow-[0_0_20px_#fff] h-full w-full rounded-2xl sm:rounded-4xl overflow-hidden">
         <div className="h-full w-full">
           <Canvas>
             <Model />
@@ -51,6 +52,7 @@ export const Theme = () => {
         </div>
 
         <div>{location.pathname === "/" && <HomeAssets />}</div>
+        <div>{location.pathname === "/skills" && <SkillsAssets />}</div>
       </div>
     </div>
   );

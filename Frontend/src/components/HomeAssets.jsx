@@ -30,7 +30,6 @@ export const HomeAssets = () => {
           <OrbitControls enableZoom={false} enableRotate={false} />
         </Canvas>
       </div>
-
       <Menu />
     </div>
   );
