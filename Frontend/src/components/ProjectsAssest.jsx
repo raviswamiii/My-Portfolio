@@ -22,7 +22,14 @@ export const ProjectsAssets = () => {
         >
           <p>Uber Clone</p>
         </a>
-        <div className="flex flex-col gap-1 justify-center items-center border p-4 rounded-2xl shadow-[0_0_10px_#fff] text-center">Coming Soon</div>
+        <a
+          href="https://sundown-studio-alpha.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex flex-col gap-1 justify-center items-center border p-4 rounded-2xl shadow-[0_0_10px_#fff] text-center"
+        >
+          <p>Sundown Studio</p>
+        </a>
         <div className="flex flex-col gap-1 justify-center items-center border p-4 rounded-2xl shadow-[0_0_10px_#fff] text-center">Coming Soon</div>
         <div className="flex flex-col gap-1 justify-center items-center border p-4 rounded-2xl shadow-[0_0_10px_#fff] text-center">Coming Soon</div>
         <div className="flex flex-col gap-1 justify-center items-center border p-4 rounded-2xl shadow-[0_0_10px_#fff] text-center">Coming Soon</div>
