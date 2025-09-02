@@ -34,8 +34,7 @@ If you’d like to connect or collaborate:
 
 - Email: [webd566@gmail.com](mailto:webd566@gmail.com)  
 - LinkedIn: [Ravi Swami](https://www.linkedin.com/in/ravi-swami-630aa7295/)  
-- GitHub: [@raviswamiii](https://github.com/raviswamiii)  
-
+- WhatsApp: [Chat with me](https://wa.me/918076040864)  
 ---
 
 ✨ Built with ❤️ by **Ravi Swami**
