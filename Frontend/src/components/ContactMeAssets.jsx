@@ -29,7 +29,7 @@ export const ContactMeAssets = () => {
               <FaWhatsapp />
             </a>
             <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=webd566@gmail.com"
+              href="mailto:webd566@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="shadow-[0_0_20px_#fff] rounded-full"
